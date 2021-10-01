@@ -66,7 +66,9 @@ header nav .menu a:hover {
 
 header .banner {
     background-image: url(../img/baby-yoda.svg);
-    background-size: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
     background-position: center;
     min-height: 400px;
     display:flex;
@@ -116,4 +118,21 @@ main .prodducts > article > .button {
     main .products {
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+.carousel .slide-container img {
+    display: block;
+    width: 30%;
+    margin:auto; 
+    padding: 30px;
+}
+
+.button-container {
+    display:flex;
+    justify-content:center;
+}
+
+.button-container .btn {
+    padding:10px;
+    margin: 10px;
 }
