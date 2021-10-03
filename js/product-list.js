@@ -38,8 +38,8 @@ function renderProducts(products){
         <img src="${product.img}" alt="${product.name}">
         <p> ${product.description}</p>
         <div class="button">
-            <button>Info</button>
-            <button>${product.price} - Buy</button>
+            <button class ="btn btn-info">Info</button>
+            <button class ="btn btn-info">${product.price} - Buy</button>
         </div>
         </article>`;
     }
